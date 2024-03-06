@@ -9,11 +9,15 @@ html {
 body {
     font-family: sans-serif;
 }
+a {
+    text-decoration: none;
+}
+/* Header */
 header {
     width: 100%;
     height: 64px;
-    background-color: rgb(64, 162, 227);
-    box-shadow: 0 12px 16px 16px rgba(64, 162, 227, 0.25);
+    background-color: #40a2e3;
+    box-shadow: 0 4px 16px 12px rgba(64, 162, 227, 0.25);
 }
 nav {
     width: 100%;
@@ -27,4 +31,78 @@ nav a {
     font-weight: 600;
     text-decoration: none;
     color: #fafafa;
+}
+/* Main content */
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 48px 0;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    width: 90%;
+    min-width: 312px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #fff6e9;
+    box-shadow: 25px 25px 50px #d9d1c6, -25px -25px 50px #ffffff;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 280px;
+    height: 420px;
+    border: 1px solid #40a2e3;
+    border-radius: 12px;
+    background-color: #fafafa;
+    padding: 16px;
+}
+div h2 {
+    font-size: 1.8rem;
+}
+div p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    background-color: #40a2e3;
+    color: #fafafa;
+    box-shadow: 2px 2px 0px #368ac1, -1px -1px 0px #4abaff;
+}
+div a:hover {
+    cursor: pointer;
+}
+div a:active {
+    box-shadow: none;
+}
+div span {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+    div {
+        width: 23%;
+        max-width: 280px;
+    }
+    div img {
+        width: 90%;
+        max-width: 200px;
+    }
 }
