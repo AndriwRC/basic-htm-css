@@ -46,6 +46,7 @@ section {
     justify-content: center;
     width: 90%;
     min-width: 312px;
+    max-width: 1400px;
     padding: 16px;
     border-radius: 12px;
     background-color: #fff6e9;
@@ -77,14 +78,10 @@ div a {
     align-items: center;
     width: 80px;
     height: 28px;
-    border: none;
     border-radius: 4px;
     background-color: #40a2e3;
     color: #fafafa;
     box-shadow: 2px 2px 0px #368ac1, -1px -1px 0px #4abaff;
-}
-div a:hover {
-    cursor: pointer;
 }
 div a:active {
     box-shadow: none;
@@ -100,9 +97,6 @@ footer {
     background-color: #bbe2ec;
     padding: 24px 16px;
 }
-footer h2 {
-    font-size: 3.6rem;
-}
 footer p {
     margin: 12px 0;
     font-size: 2rem;
@@ -113,7 +107,6 @@ footer p {
 @media (min-width: 1024px) {
     div {
         width: 23%;
-        max-width: 280px;
     }
     div img {
         width: 90%;
