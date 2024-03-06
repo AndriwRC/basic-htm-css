@@ -95,6 +95,20 @@ div span {
     text-align: center;
 }
 
+/* Footer */
+footer {
+    background-color: #bbe2ec;
+    padding: 24px 16px;
+}
+footer h2 {
+    font-size: 3.6rem;
+}
+footer p {
+    margin: 12px 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 /* Responsive */
 @media (min-width: 1024px) {
     div {
